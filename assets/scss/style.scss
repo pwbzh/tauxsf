@@ -1,0 +1,36 @@
+$primary: #003a5d;
+
+// Card colors
+$card-border-color: #e9ecef;
+$card-cap-bg: #f8f9fa;
+
+// Alert messages background color
+$alert-bg-level: 0;
+
+// Bootstrap 4
+@import "bootstrap/bootstrap";
+
+body {
+    margin-bottom: 1rem;
+}
+
+#top {
+    @extend .shadow-sm;
+
+    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    h1 {
+        margin: 0;
+    }
+}
+
+.card, .table {
+    margin-bottom: 2rem;
+}
+
+.alert {
+    border: none;
+    color: white;
+}
