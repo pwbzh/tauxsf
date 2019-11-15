@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Taux d'encadrement du Scoutisme Français</title>
+    <title>TauxSF</title>
 
     <link rel="stylesheet" href="css/style.min.css">
     <meta name="theme-color" content="#003a5d">
