@@ -1,9 +1,5 @@
 $primary: #003a5d;
 
-// Card colors
-$card-border-color: #e9ecef;
-$card-cap-bg: #f8f9fa;
-
 // Alert messages background color
 $alert-bg-level: 0;
 
@@ -20,6 +16,8 @@ body {
     margin-bottom: 1.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+
+    border-bottom: 1px solid $card-border-color;
 
     h1 {
         margin: 0;
