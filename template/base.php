@@ -8,7 +8,8 @@
     <title>TauxSF</title>
 
     <link rel="stylesheet" href="css/style.min.css">
-    <meta name="theme-color" content="#1087c9">
+    <meta name="theme-color" content="#01579b">
+    <link rel="icon" type="image/png" href="tauxsf.png">
 </head>
 
 <body>
