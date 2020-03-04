@@ -19,6 +19,14 @@
     <div class="container" id="content">
         <h1>TauxSF <small class="text-muted">Taux d'encadrement du Scoutisme Français</small></h1>
 
+        <?php
+        if ($_SERVER['SERVER_NAME'] == 'tauxsf.pweyl.com') {
+        ?>
+        <div class="alert alert-warning" role="alert">Vous utilisez l'ancienne URL ! Je vous invite à dorénavant utiliser la nouvelle : <a class="text-white" href="https://tauxsf.pwbzh.fr">tauxsf.pwbzh.fr</a></div>
+        <?php
+        }
+        ?>
+
         <?php include_once __DIR__.'/'.$template; ?>
 
         <p class="text-muted text-center mt-4 mb-0">Développé avec &hearts; par <a href="http://pwbzh.fr">Pierre Weyl</a>, bénévole chez les <a href="https://www.sgdf.fr/">Scouts et Guides de France</a>.</p>
