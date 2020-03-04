@@ -13,7 +13,7 @@
 
             <small class="form-text text-muted mb-3">Un accueil de scoutisme regroupe au moins 7 mineurs.</small>
 
-            <div class="custom-control custom-checkbox">
+            <div class="custom-control custom-switch">
                 <input type="checkbox" class="custom-control-input" id="more-14" name="more-14" <?php if ($this->more14) { echo 'checked'; }; ?>>
                 <label class="custom-control-label" for="more-14">Les jeunes ont tous plus de 14 ans</label>
             </div>
