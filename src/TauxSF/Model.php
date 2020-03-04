@@ -4,7 +4,7 @@ namespace TauxSF;
 
 class Model
 {
-    public function getSupervisionRate(int $children): array
+    public function getSupervisionRate(int $children, bool $more14): array
     {
         // Get rate
         $supervisionRate = array();
@@ -14,6 +14,11 @@ class Model
 
         // Qualified
         $qualified = (int) ceil($leader / 2);
+
+        if ($more14) {
+            --$leader;
+            --$qualified;
+        }
 
         // Unqualified max
         $unqualifiedMax = (int) ceil((20 * $leader) / 100);
