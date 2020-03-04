@@ -5,17 +5,12 @@ $alert-bg-level: 0;
 $primary: #0277bd;
 $cyan: #58a5f0;
 
-// Border radius
-$border-radius: .25rem/2;
-$border-radius-lg: .3rem/2;
-$border-radius-sm: .2rem/2;
-
 // Bootstrap 4
 @import "bootstrap/bootstrap";
 
 body {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 h1 {
