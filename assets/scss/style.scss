@@ -8,6 +8,9 @@ $warning: #fd7e14;
 $primary: #01579b;
 $cyan: #4f83cc;
 
+// Buttons shadow
+$enable-shadows: true;
+
 // Bootstrap 4
 @import "bootstrap/bootstrap";
 
@@ -24,12 +27,7 @@ h1 {
     margin-bottom: 2rem;
 }
 
-.card {
-    @extend .shadow-sm;
-}
-
 .alert {
     border: none;
     color: white;
-    @extend .shadow-sm;
 }
