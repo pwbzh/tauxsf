@@ -35,3 +35,9 @@ h1 {
     border: none;
     color: white;
 }
+
+@each $color, $value in $theme-colors {
+    .btn-#{$color} {
+        @include button-variant($value, darken($value, 10%));
+    }
+}
