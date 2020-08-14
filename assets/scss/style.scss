@@ -14,6 +14,10 @@ $enable-shadows: true;
 // Bootstrap 4
 @import "bootstrap/bootstrap";
 
+html {
+    border-top: .25rem solid $primary;
+}
+
 body {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
