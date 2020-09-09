@@ -10,7 +10,7 @@
 
     <title>TauxSF</title>
 
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.min.css?v=20200909">
     <meta name="theme-color" content="#01579b">
     <link rel="icon" type="image/png" href="tauxsf.png">
 </head>
@@ -33,10 +33,12 @@
 
         <?php include_once __DIR__.'/'.$template; ?>
 
-        <p class="text-muted text-center mt-4 mb-0">Développé avec &hearts; par <a href="http://pwbzh.fr">Pierre Weyl</a>, bénévole chez les <a href="https://www.sgdf.fr/">Scouts et Guides de France</a>.</p>
-        <p class="text-muted text-center mb-2">Ce site web n'est pas officiel. Il n'est pas édité par le Scoutisme Français.</p>
-        <p class="text-muted text-center mb-0">Tu souhaites contribuer ? Retrouvons-nous sur <a href="https://github.com/pwbzh/tauxsf">GitHub</a> :-)</p>
-        <p class="text-muted text-center">Tu aimes ce site ? Tu aimeras sûrement <a href="https://guidesf.pwbzh.fr">GuideSF</a> !</p>
+        <footer>
+            <p class="text-muted text-center mb-0">Ce site web n'est pas officiel. Il n'est pas édité par le Scoutisme Français.</p>
+            <p class="text-muted text-center mb-2">Développé avec &hearts; par <a href="http://pwbzh.fr">Pierre Weyl</a>, bénévole chez les <a href="https://www.sgdf.fr/">Scouts et Guides de France</a>.</p>
+            <p class="text-muted text-center mb-0">Tu souhaites contribuer ? Retrouvons-nous sur <a href="https://github.com/pwbzh/tauxsf">GitHub</a> :-)</p>
+            <p class="text-muted text-center">Tu aimes ce site ? Tu aimeras sûrement <a href="https://guidesf.pwbzh.fr">GuideSF</a> !</p>
+        </footer>
     </div>
 </body>
 
