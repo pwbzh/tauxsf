@@ -26,7 +26,7 @@
         <?php
         if ($_SERVER['SERVER_NAME'] == 'tauxsf.pweyl.com') {
         ?>
-        <div class="alert alert-warning" role="alert">Vous utilisez l'ancienne URL ! Je vous invite à dorénavant utiliser la nouvelle : <a class="text-white" href="https://tauxsf.pwbzh.fr">tauxsf.pwbzh.fr</a></div>
+        <div class="alert alert-warning" role="alert">Vous utilisez l'ancienne URL ! Je vous invite à dorénavant utiliser la nouvelle : <a href="https://tauxsf.pwbzh.fr">tauxsf.pwbzh.fr</a></div>
         <?php
         }
         ?>
