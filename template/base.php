@@ -16,9 +16,13 @@
 </head>
 
 <body>
-    <div class="container" id="content">
-        <h1>TauxSF <small class="text-muted">Taux d'encadrement du Scoutisme Français</small></h1>
+    <div id="top" class="shadow-sm">
+        <div class="container" id="content">
+            <h1>TauxSF <small class="text-muted">Taux d'encadrement du Scoutisme Français</small></h1>
+        </div>
+    </div>
 
+    <div class="container" id="content">
         <?php
         if ($_SERVER['SERVER_NAME'] == 'tauxsf.pweyl.com') {
         ?>
