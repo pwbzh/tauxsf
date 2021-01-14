@@ -19,7 +19,7 @@ class Controller
         }
 
         if (isset($_GET['more-14'])
-            && on == $_GET['more-14']
+            && "on" == $_GET['more-14']
         ) {
             $more14 = true;
         }
