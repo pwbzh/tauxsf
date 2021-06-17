@@ -27,6 +27,12 @@
         }
         ?>
 
+        <div class="alert alert-warning">
+        <span class="lead">La calculatrice est dorénavant intégrée au site du guide réglementaire en ligne <a href="https://guidesf.pwbzh.fr">GuideSF</a> :-)</span><br>
+        Ce site, TauxSF, cessera d'exister le 1er septembre 2021.<br>
+        Un seul site, une seule adresse : <a href="https://guidesf.pwbzh.fr">https://guidesf.pwbzh.fr</a> !
+        </div>
+
         <?php include_once __DIR__.'/'.$template; ?>
 
         <footer>
@@ -40,7 +46,6 @@
                 <div class="col-md-5">
                     <p class="text-muted mb-0">Tu souhaites contribuer ? Retrouvons-nous sur <a href="https://github.com/pwbzh/tauxsf" target="_blank">GitHub</a> :-)</p>
                     <p class="text-muted mb-0">Tu aimes ce site ? Tu aimeras sûrement <a href="https://guidesf.pwbzh.fr" target="_blank">GuideSF</a> !</p>
-                    <p class="text-muted">Hébergé gracieusement par <a href="https://www.clever-cloud.com/" target="_blank">Clever Cloud</a>.</p>
                 </div>
             </div>
         </footer>
